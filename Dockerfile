@@ -1,5 +1,5 @@
 # Use an official Tomcat runtime as the base image
-FROM tomcat:latest
+FROM tomcat:lat
 
 # Remove the default ROOT web application that comes with Tomcat
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
